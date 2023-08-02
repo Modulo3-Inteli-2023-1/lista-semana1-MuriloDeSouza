@@ -11,9 +11,7 @@ def cumulativo(lista):
     for i in range(len(lista)-1):
         lista2.append(lista2[i]+lista[i+1])
 
-
-
-
+    return lista2
 
 # Teste a sua função aqui (caso ache necessário)
 

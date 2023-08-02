@@ -7,8 +7,9 @@
 # Crie a função que será avaliada no exercício aqui
 
 def cumulativo(lista):
-    for i in lista:
-        return(sum(lista[:i-1])) #aqui eu coloquei o i-1 para que ele não some o ultimo numero da lista
+    lista2 = [lista[0]]
+    for i in range(len(lista)-1):
+        lista2.append(lista2[i]+lista[i+1])
 
 
 
